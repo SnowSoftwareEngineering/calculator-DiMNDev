@@ -7,30 +7,37 @@
             // Welcome to the calculator project, complete the methods
 
             // Call the methods here ex.
-            int result = Add(2, 3);
-            Console.WriteLine("The result of adding 2 and 3 is: " + result);
+            int sum = Add(2, 3);
+            Console.WriteLine("The result of adding 2 and 3 is: " + sum);
+            int difference = Subtract(2, 3);
+            Console.WriteLine("The result of subtracting 2 and 3 is: " + difference);
+            int product = Multiply(2, 3);
+            Console.WriteLine("The result of multiplying 2 and 3 is: " + product);
+            decimal quotient = Divide(2, 3);
+            Console.WriteLine("The result of dividing 2 and 3 is: " + quotient);
         }
 
         // Methods Here
         public static int Add(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int sum = a + b;
+            return sum;
         }
         public static int Subtract(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int difference = a - b;
+            return difference;
         }
         public static int Multiply(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            int product = a * b;
+            return product;
         }
         public static decimal Divide(int a, int b)
         {
-            // Code
-            return 0; // Placeholder
+            decimal quotient = a / (decimal)b;
+            return quotient;
         }
     }
+
 }

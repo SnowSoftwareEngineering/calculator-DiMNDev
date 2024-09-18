@@ -7,8 +7,8 @@ namespace Setup
         [Fact]
         public void TestAddition()
         {
-            int result = StudentProject.Program.Add(2, 3); 
-            Assert.Equal(5, result);        
+            int result = StudentProject.Program.Add(2, 3);
+            Assert.Equal(5, result);
         }
 
         [Fact]
